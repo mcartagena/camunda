@@ -1,0 +1,111 @@
+# --- Java / Maven ---
+# Compiled class files
+*.class
+
+# Maven target directory
+target/
+
+# Maven specific files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Maven wrapper timing
+.mvn/
+.mvn/timing.properties
+
+# --- Spring Boot ---
+# Spring Boot devtools
+spring-boot-devtools.properties
+spring.log
+
+# --- IDEs ---
+# IntelliJ
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+
+# --- Build tools ---
+# Gradle
+.gradle/
+build/
+
+# Node
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Logs ---
+logs/
+*.log
+*.log.*
+
+# --- Test / reports ---
+target/surefire-reports/
+target/failsafe-reports/
+test-output/
+
+# --- OS generated files ---
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# --- Coverage / Profiling ---
+coverage/
+jacoco.exec
+*.lcov
+
+# --- Temporary / Editor ---
+*~
+*.swp
+*.swo
+
+# --- Environment / Secrets ---
+.env
+.env.*.local
+*.secret
+secrets.yml
+
+# --- Docker / Containers ---
+docker-compose.override.yml
+docker-compose.override.*.yml
+
+# --- Misc ---
+# Runtime files
+*.pid
+*.seed
+
+# Ensure we ignore built archives (if accidentally created)
+*.jar
+*.war
+*.ear
+
+# Keep this file tracked
+!.gitignore
